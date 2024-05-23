@@ -14,7 +14,7 @@ const Home = () => {
         <img src={Val} alt="" className="sm:hidden block my-4  mx-auto " />
         <FaPlus className="text-3xl  text-gray-900 absolute top-4 right-3" />
       </div>
-      <div className="mx-auto sm:w-3/4 w-full flex flex-col justify-center items-center sm:mt-24 mt-64">
+      <div className="mx-auto sm:w-3/4 w-full flex flex-col justify-center items-center sm:mt-12 mt-64">
         <img src={Vichaa} alt="" className="sm:w-1/12 w-1/4" />
         <h1 className="sm:text-3xl text-3xl text-center font-bold my-5">
           How can I help you?
