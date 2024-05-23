@@ -21,7 +21,7 @@ const Login = () => {
                 <img
                   src={Val}
                   alt=""
-                  className="absolute top-[-27px] right-[-28px] w-1/4"
+                  className="absolute top-[-23px] right-[-24px] w-1/4"
                 />
               </div>
               <form className="space-y-6">

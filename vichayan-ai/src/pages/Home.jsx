@@ -10,9 +10,9 @@ import { FaPlus } from "react-icons/fa6";
 const Home = () => {
   return (
     <div className="bg-[#EEEEE4] h-full">
-      <div className="flex flex-row justify-between sm:hidden items-center relative">
-        <img src={Val} alt="" className="sm:hidden block my-4  mx-auto " />
-        <FaPlus className="text-3xl  text-gray-900 absolute top-4 right-3" />
+      <div className="flex flex-row ml-auto justify-between sm:hidden items-center w-3/4 ">
+        <img src={Val} alt="" className="sm:hidden block my-4 " />
+        <FaPlus className="text-3xl  text-gray-900 mr-5 mb-2" />
       </div>
       <div className="mx-auto sm:w-3/4 w-full flex flex-col justify-center items-center sm:mt-12 mt-64">
         <img src={Vichaa} alt="" className="sm:w-1/12 w-1/4" />
