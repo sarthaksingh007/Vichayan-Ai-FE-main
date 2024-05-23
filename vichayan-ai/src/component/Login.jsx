@@ -16,7 +16,7 @@ const Login = () => {
       <div className="font-[sans-serif] text-[#333]">
         <div className="min-h-screen flex fle-col items-center justify-center py-6 px-4">
           <div className="flex justify-center  items-center max-w-7xl w-full">
-            <div className="border bg-[#FFFFFF] border-gray-300 rounded-md p-6  shadow-[0_2px_22px_-4px_rgba(93,96,127,0.2)] sm:w-2/4 mx-auto w-full">
+            <div className="border bg-[#FFFFFF] border-gray-300 rounded-xl p-6  shadow-[0_2px_22px_-4px_rgba(93,96,127,0.2)] sm:w-2/4 mx-auto w-full">
               <div className="relative">
                 <img
                   src={Val}
@@ -32,7 +32,7 @@ const Login = () => {
                     <b className="text-black">Vichayan AI</b>
                   </p>
                 </div>
-                <div className="flex flex-row justify-center items-center pb-8">
+                <div className="flex flex-row sm:justify-evenly justify-center items-center pb-8">
                   <div className="flex flex-row justify-center items-center rounded-md bg-[#EEEEE4] p-2 m-1">
                     <GoogleIcon className="" />
                     <p className="ml-2 font-semibold sm:text-lg text-sm">
@@ -108,10 +108,10 @@ const Login = () => {
                 </div>
                 <div className="flex items-center justify-end gap-2">
                   {/*  */}
-                  <div className="text-sm">
+                  <div className="text-sm ">
                     <a
                       href="jajvascript:void(0);"
-                      className="fond-bold text-black hover:underline"
+                      className="font-bold text-black hover:underline"
                     >
                       Forgot your password?
                     </a>
@@ -130,7 +130,7 @@ const Login = () => {
                   Don't have an account{" "}
                   <a
                     href="javascript:void(0);"
-                    className=" hover:underline ml-1 whitespace-nowrap fond-bold text-black"
+                    className=" hover:underline ml-1 whitespace-nowrap font-bold text-black"
                   >
                     Sign Up
                   </a>
